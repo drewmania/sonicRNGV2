@@ -46,7 +46,7 @@ body {
 }
 /*locked animation*/
 .lockedAnimation {
-    animation: locked alternate 4 0.50s;
+    animation: locked alternate 4 0.20s;
 }
 @keyframes locked {
     from {

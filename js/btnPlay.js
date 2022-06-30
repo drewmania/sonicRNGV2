@@ -10,7 +10,7 @@ document.getElementById('debug').addEventListener('click', e=> {
         document.getElementById('debug').classList.toggle('lockedAnimation')
         setTimeout(() => {
             document.getElementById('debug').classList.toggle('lockedAnimation')
-        }, 5000);
+        }, 1000);
     }
     if(document.getElementById('debug').classList.contains('unlocked') === true) {
         console.log('unlocked')
