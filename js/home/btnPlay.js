@@ -1,6 +1,6 @@
 function click() {
 document.getElementById('play').addEventListener('click', e=> {
-    console.log('play')
+    location.replace('/characterAndStage.html')
 })
 document.getElementById('howToPlay').addEventListener('click', e=> {
     console.log('how to play')

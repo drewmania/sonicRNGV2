@@ -1,3 +1,76 @@
 body {
     background-color: gold;
 }
+/*show/hide*/
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+/*locked*/
+.lockedAnimation {
+    animation: locked alternate 2 0.20s;
+}
+@keyframes locked {
+    100% {
+        border: 1px solid red;
+    }
+}
+/*chstscter select*/
+#characterSelect {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    padding: 10px;
+}
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+}
+/*selecdt div*/
+.select {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    width: 75%;
+    padding: 10px;
+}
+.select div {
+    display: flex;
+    height: 15%;
+    width: 60%;
+    border: 1px solid black;
+    padding: 10px;
+    transition: all 1s;
+}
+.select div:hover {
+    width: 75%;
+}
+.select i {
+    margin-left: auto;
+    align-self: center;
+    font-size: xx-large;
+    border-radius: 100%;
+}
+/*display*/
+.displayCharacter {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 75%;
+    padding: 10px;
+    transition: all 1s;
+}
+.card {
+    display: none;
+    height: 99%;
+    width: 20%;
+    border: 1px solid black;
+}
+.space {
+    height: 99%;
+    width: 2%;
+}

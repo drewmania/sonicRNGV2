@@ -4,11 +4,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/03eb4806b1.js" crossorigin="anonymous"></script>
+    <script src="/js/stageAndChartor/characterSelect.js"></script>
     <link rel="stylesheet" href="css/characterAndStage.css">
 </head>
 <body>
     <div class="show" id="characterSelect">
-
+        <h1 class="title">Character Select</h1>
+    </br>
+    </br>
+        <div class="select">
+            <div class="unlocked" id="sonic">
+                <i class="fa-solid fa-circle-question" id="sonicInfo"></i>
+            </div>
+        </br>
+            <div class="unlocked" id="tails">
+                <i class="fa-solid fa-circle-question" id="tailsInfo"></i>
+            </div>
+        </br>
+            <div class="unlockedKnuckle">
+                <i class="fa-solid fa-circle-question" id="knuckleInfo"></i>
+            </div>
+        </br>
+            <div class="locked" id="mighty">
+                <i class="fa-solid fa-circle-question" id="mightyInfo"></i>
+            </div>
+        </br>
+            <div class="locked" id="ray">
+                <i class="fa-solid fa-circle-question" id="rayInfo"></i>
+            </div>
+        </div>
+        <div class="displayCharacter">
+            <div class="card" id="sonicDisplay">
+            </div>
+            <div class="space"></div>
+            <div class="card" id="tailsDisplay"></div>
+            <div class="space"></div>
+            <div class="card" id="knuckleDisplay"></div>
+            <div class="space"></div>
+            <div class="card" id="mightyDisplay"></div>
+            <div class="space"></div>
+            <div class="card" id="ray"></div>
+        </div>
+        <div class="infoCharacter">
+            <div class="info" id="sonicInfoContainer"></div>
+            <div class="info" id="tailsInfoContainer"></div>
+            <div class="info" id="knuckleInfoContainer"></div>
+            <div class="info" id="mightyInfoContainer"></div>
+            <div class="info" id="rayInfoContainer"></div>
+        </div>
     </div>
     <div class="hide" id="stageSelect"></div>
 </body>
