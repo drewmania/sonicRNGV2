@@ -15,36 +15,47 @@
     </br>
         <div class="select">
             <div class="unlocked" id="sonic">
-                <i class="fa-solid fa-circle-question" id="sonicInfo"></i>
+                <i class="fa-solid fa-circle-question info" id="sonicInfo"></i>
             </div>
         </br>
             <div class="unlocked" id="tails">
-                <i class="fa-solid fa-circle-question" id="tailsInfo"></i>
+                <i class="fa-solid fa-circle-question info" id="tailsInfo"></i>
             </div>
         </br>
-            <div class="unlockedKnuckle">
-                <i class="fa-solid fa-circle-question" id="knuckleInfo"></i>
+            <div class="unlocked" id="knuckle"> 
+                <i class="fa-solid fa-circle-question info" id="knuckleInfo"></i>
             </div>
         </br>
             <div class="locked" id="mighty">
-                <i class="fa-solid fa-circle-question" id="mightyInfo"></i>
+                <i class="fa-solid fa-circle-question info" id="mightyInfo"></i>
             </div>
         </br>
             <div class="locked" id="ray">
-                <i class="fa-solid fa-circle-question" id="rayInfo"></i>
+                <i class="fa-solid fa-circle-question info" id="rayInfo"></i>
             </div>
         </div>
-        <div class="displayCharacter">
+        <div class="displayCharacter" id="display">
             <div class="card" id="sonicDisplay">
+             <i class="fas fa-trash-alt trash" id="sonicTrash"></i>   
             </div>
             <div class="space"></div>
-            <div class="card" id="tailsDisplay"></div>
+            <div class="card" id="tailsDisplay">
+                
+                <img src="/img/tails.PNG" class="img" alt="">
+                <i class="fas fa-trash-alt trash" id="tailsTrash"></i>  
+            </div>
             <div class="space"></div>
-            <div class="card" id="knuckleDisplay"></div>
+            <div class="card" id="knuckleDisplay">
+            <i class="fas fa-trash-alt trash" id="knuckleTrash"></i>   
+            </div>
             <div class="space"></div>
-            <div class="card" id="mightyDisplay"></div>
+            <div class="card" id="mightyDisplay">
+                <i class="fas fa-trash-alt trash" id="mightyTrash"></i>   
+            </div>
             <div class="space"></div>
-            <div class="card" id="ray"></div>
+            <div class="card" id="rayDisplay">
+                <i class="fas fa-trash-alt trash" id="rayTrash"></i>   
+            </div>
         </div>
         <div class="infoCharacter">
             <div class="info" id="sonicInfoContainer"></div>
@@ -53,6 +64,7 @@
             <div class="info" id="mightyInfoContainer"></div>
             <div class="info" id="rayInfoContainer"></div>
         </div>
+        <button class="btn" id="moveNext"><strong>READY</strong></button>
     </div>
     <div class="hide" id="stageSelect"></div>
 </body>
